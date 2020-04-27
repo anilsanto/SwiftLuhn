@@ -10,7 +10,7 @@
 
 This is a port of the Luhn Algorithm, generally used for validating debit/credit card details, written in Swift.
 
-SwiftLuhn's HEAD is written in Swift 4. If your project doesn't support Swift 4 yet, please use the [0.2.1 tag](https://github.com/MaxKramer/SwiftLuhn/releases/tag/0.2.1).
+SwiftLuhn's HEAD is written in Swift 5. If your project doesn't support Swift 5 yet, please use the [1.0.0 tag](https://github.com/MaxKramer/SwiftLuhn/releases/tag/0.2.1).
 
 Objective-C port can be found at [https://github.com/MaxKramer/ObjectiveLuhn](https://github.com/MaxKramer/ObjectiveLuhn).
 
@@ -25,7 +25,7 @@ SwiftLuhn is available through [CocoaPods](http://cocoapods.org) or Carthage (wi
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SwiftLuhn" # use '0.2.1' for Swift 3.X
+pod "SwiftLuhn" # use '2.0.0' for Swift 5.X
 ```
 
 Or alternatively the following line to your Cartfile:

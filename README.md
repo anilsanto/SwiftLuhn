@@ -1,5 +1,5 @@
 # SwiftLuhn
-[![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org)
 [![CircleCI](https://circleci.com/gh/maxkramer/SwiftLuhn.svg?style=svg)](https://circleci.com/gh/maxkramer/SwiftLuhn)
 [![Version](https://img.shields.io/cocoapods/v/SwiftLuhn.svg?style=flat)](http://cocoapods.org/pods/SwiftLuhn)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)

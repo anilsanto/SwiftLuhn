@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'SwiftLuhn'
-	s.version          = '1.0.0'
+	s.version          = '2.0.0'
 	s.summary          = 'SwiftLuhn is a port of the Luhn algorithm, used for validating debit/credit card details.'
 	s.description      = <<-DESC
 	This is a port of the Luhn Algorithm, generally used for validating debit/credit card details, to Swift.
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, '8.0'
 	s.requires_arc = true
 	s.source_files = 'SwiftLuhn/Classes/**/*'
-	s.swift_version = '4.0'
+	s.swift_version = '5.0'
 end

@@ -106,6 +106,12 @@
 			<key>type</key>
 			<string>mastercard</string>
 		</dict>
+        <dict>
+            <key>number</key>
+            <string>6073830004127543</string>
+            <key>type</key>
+            <string>rupay</string>
+        </dict>
 	</array>
 	<key>invalid</key>
 	<array>

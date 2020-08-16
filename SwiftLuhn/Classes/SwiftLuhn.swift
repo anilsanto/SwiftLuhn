@@ -13,11 +13,11 @@ open class SwiftLuhn {
         case amex = 0
         case visa
         case mastercard
-        case discover
+        case rupay
         case dinersClub
         case jcb
         case maestro
-        case rupay
+        case discover
         case mir
     }
     
@@ -169,15 +169,15 @@ public extension SwiftLuhn.CardType {
         case "mastercard":
             self.init(rawValue: 2)
         case "discover":
-            self.init(rawValue: 3)
-        case "diner's club":
             self.init(rawValue: 4)
-        case "jcb":
+        case "diner's club":
             self.init(rawValue: 5)
-        case "maestro":
+        case "jcb":
             self.init(rawValue: 6)
-        case "rupay":
+        case "maestro":
             self.init(rawValue: 7)
+        case "rupay":
+            self.init(rawValue: 3)
         case "mir":
             self.init(rawValue: 8)
         default:

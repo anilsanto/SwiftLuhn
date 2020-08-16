@@ -40,6 +40,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let updatedString = text.replacingCharacters(in: range, with: string)
         
         let isValid = updatedString.isValidCardNumber()
+        let cardType = updatedString.cardType()
+        print(cardType)
         updateLabel(isValid)
         return true
     }
